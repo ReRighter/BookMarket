@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.header,.nav,.container,.footer{
+
+    float: left;/* 左浮动 */
+    width: 100%; /* 占满浏览器 */
+
+}
+.header{
+    background-color: #ccc;
+    padding: 20px;
+    text-align: center;
+}
+.nav{
+    background-color: aqua;
+}
+.nav a{
+    color: #fff;
+    padding: 10px 20px ;
+    display: inline-block;/* 让链接用块的形式显示 */
+}
+.nav a:hover{/* 修改链接悬停的背景 */
+    background-color: #ccc;
+}
+.lside{/* 设置左右边栏的宽度以及浮动方向 */
+    width: 15%;
+
+    float: left;
+}
+.rside{
+    width: 15%;
+    float: right;
+}
+.content{ /* 指定中间栏和左右边栏的相距距离 */
+    margin-left: 15px;
+    margin-right: 15px;
+    position: absolute;
+    left: 20%;
+}
+.footer{
+    background-color: #ccc;
+    text-align: center;
+    position: fixed;/* 相对于底部0像素, 即位于最下方 */
+    bottom: 0;
+    padding: 10px;
+}
+.main{
+    height: 90%;
+    margin-bottom: 0%;
+}
+.img{
+    width: 120px;
+    height: 120px;
+}
+.book{/* 让图片和信息水平排列 */
+    display: flex;
+}
+.reg_content{
+    text-align: center;
+}
+.reg_content form{/*让注册界面居中*/
+    display: inline-block;
+}
+.user_center{
+    text-align: center;
+}
+.input input{
+    background-color: #e1dfdf;
+    width: 300px;
+    height: 25px;
+}
+.type{
+    display: inline-block;
+    margin: 0;
+    padding: 10px;
+}
+.type:hover{
+    background-color: #cccccc;
+}
+.bookName{
+    font-size: large;
+    font-weight: bold;
+}
+.bookPrice{
+    font-size: medium;
+}
+.bookNum{
+    font-size: small;
+}
+.cart_content{
+    display: flex;
+}
+.cart{
+    display: inline-block;
+    float: left;
+    margin: 20px;
+}
+.order_submit{
+    background-color: orange;
+    position: fixed;
+    width: 15%;
+    height: 5%;
+    bottom: 5%;
+    right: 0;
+}
+.order_submit:hover{
+    background-color: #cccccc;
+}
+.add{
+    display: inline-block;
+    font-weight: bold;
+    width: 100px;
+    height: 50px;
+    background-color:bisque;
+    text-align: center;
+}
+.out_add{
+    text-align: right;
+}
+.navtab li{
+    float: left;
+    margin: 0px;
+    padding-right: 20px;
+    background-color:aliceblue;
+
+}
+.navtab li:hover{
+    background-color: bisque;
+}
+.table{
+    border: 2px solid black;
+
+}
+.table tr th{
+    border: 1px solid black;
+}
+.table tr td{
+    border: 1px solid black;
+
+}
+.actions{
+    text-align: center;
+}
+.action{
+    margin-right: 0;
+    padding: 20px;
+}
+.action:hover .act:hover{
+    background-color: #cccccc;
+}
